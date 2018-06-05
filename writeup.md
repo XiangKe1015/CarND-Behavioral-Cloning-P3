@@ -95,6 +95,7 @@ I also tried adding Maxpooling layers and dropout layers after convolution layer
 #### 3. Creation of the Training Set & Training Process
 
 To capture good driving behavior, I used the captured sample data from Udacity, contains the image from 1st track, center, left and right captured picute.Below are examples:
+
 ![avatar](/img/center_2016_12_01_13_30_48_287.jpg) ![avatar](/img/left_2016_12_01_13_30_48_287.jpg) ![avatar](/img/right_2016_12_01_13_30_48_287.jpg)
 
 To augment the data sat, I also flipped center images and angles, For example, here is an image that has then been flipped:
